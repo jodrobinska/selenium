@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1ae53126-58fe-4fab-ba50-106efade108c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/agh/qa/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Selektory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SelektoryCSS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SelektoryXpath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebDriverManagerTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2iQqu7houQ29mOrpCvANFLyNR6V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.<default>.executor": "Run",
+    "TestNG.Selektory.findElements.executor": "Run",
+    "TestNG.Selektory.testingOmayo.executor": "Run",
+    "TestNG.SelektoryCSS.executor": "Run",
+    "TestNG.SelektoryCSS.findElements.executor": "Run",
+    "TestNG.SelektoryXpath.executor": "Run",
+    "TestNG.SelektoryXpath.testingOmayo.executor": "Run",
+    "TestNG.SelektoryXpath.testingOmayoPage.executor": "Run",
+    "TestNG.SeleniumTest.openGooglePage.executor": "Run",
+    "TestNG.SeleniumTest.openGooglePageusingChrome.executor": "Run",
+    "TestNG.SeleniumTest.openPageGoogle.executor": "Run",
+    "TestNG.SeleniumTest.sampleTest.executor": "Run",
+    "TestNG.SeleniumTest2.findTutorialSelenium.executor": "Debug",
+    "TestNG.WebDriverManagerTest.openBrowser.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Judyta/IdeaProjects/SeleniumTests",
+    "onboarding.tips.debug.path": "C:/Users/Judyta/IdeaProjects/SeleniumTests/src/main/java/pl/edu/agh/qa/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Selektory.findElements">
+    <configuration name="SelektoryXpath.testingOmayoPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SelektoryXpath" />
+      <option name="METHOD_NAME" value="testingOmayoPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Selektory.findElements" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Selektory" />
+      <option name="METHOD_NAME" value="findElements" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumTest2.findTutorialSelenium" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTest2" />
+      <option name="METHOD_NAME" value="findTutorialSelenium" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumTest.openPageGoogle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTest" />
+      <option name="METHOD_NAME" value="openPageGoogle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Selektory.findElements" />
+        <item itemvalue="TestNG.SeleniumTest2.findTutorialSelenium" />
+        <item itemvalue="TestNG.SeleniumTest.openPageGoogle" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.SelektoryXpath.testingOmayoPage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ae53126-58fe-4fab-ba50-106efade108c" name="Changes" comment="" />
+      <created>1719433370255</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719433370255</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pl/edu/agh/qa/Main.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

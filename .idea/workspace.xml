@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ae53126-58fe-4fab-ba50-106efade108c" name="Changes" comment="1.Selektory">
+    <list default="true" id="1ae53126-58fe-4fab-ba50-106efade108c" name="Changes" comment="2.Action">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BasicActionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasicActionsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +36,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.<default>.executor": "Run",
+    "TestNG.BasicActionsTest.performAction.executor": "Run",
     "TestNG.Selektory.findElements.executor": "Run",
     "TestNG.Selektory.testingOmayo.executor": "Run",
     "TestNG.SelektoryCSS.executor": "Run",
@@ -63,12 +65,12 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Selektory.findElements">
-    <configuration name="SelektoryXpath.testingOmayoPage" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.BasicActionsTest.performAction">
+    <configuration name="BasicActionsTest.performAction" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTests" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SelektoryXpath" />
-      <option name="METHOD_NAME" value="testingOmayoPage" />
+      <option name="MAIN_CLASS_NAME" value="BasicActionsTest" />
+      <option name="METHOD_NAME" value="performAction" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -124,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BasicActionsTest.performAction" />
         <item itemvalue="TestNG.Selektory.findElements" />
         <item itemvalue="TestNG.SeleniumTest2.findTutorialSelenium" />
         <item itemvalue="TestNG.SeleniumTest.openPageGoogle" />
         <item itemvalue="TestNG.&lt;default&gt;" />
-        <item itemvalue="TestNG.SelektoryXpath.testingOmayoPage" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720717164081</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2.Action">
+      <option name="closed" value="true" />
+      <created>1720721562870</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720721562870</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,7 +181,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.Selektory" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.Selektory" />
+    <MESSAGE value="2.Action" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.Action" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

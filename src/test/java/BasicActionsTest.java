@@ -41,7 +41,12 @@ public class BasicActionsTest {
 
         WebElement passInput = driver.findElement(By.name("password"));
         passInput.sendKeys(Keys.TAB);
-        passInput.sendKeys(Keys.ENTER);
+        //passInput.sendKeys(Keys.ENTER);
+
+        driver.findElement(By.cssSelector("[type='checkbox']")).click(); // checkbox
+
+        driver.findElement(By.cssSelector("[value='female']")).click(); // radiobutton
+
 
 
     }

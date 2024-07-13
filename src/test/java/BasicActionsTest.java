@@ -2,7 +2,10 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
+
+import java.util.List;
 
 public class BasicActionsTest {
 
@@ -46,6 +49,19 @@ public class BasicActionsTest {
         driver.findElement(By.cssSelector("[type='checkbox']")).click(); // checkbox
 
         driver.findElement(By.cssSelector("[value='female']")).click(); // radiobutton
+
+        // select Volvo,Saab,Mercedes,Audi
+        WebElement selectCar = driver.findElement(By.cssSelector("select"));
+        Select cars4 = new Select(selectCar);
+        //cars4.selectByIndex(2); // 1sp; numerujemy od 0
+        //cars4.selectByVisibleText("Audi"); // 2sp; ważna jest wielkość liter
+        cars4.selectByValue("saab"); // 3sp
+
+        // wypisujemy opcje z selecta
+        List<WebElement> options4 = cars4.getOptions();
+        for (WebElement option : options4) {
+            System.out.println(option.getText()); // metoda getText działa dla kazdego WebElementu
+        }
 
     }
 }

@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ae53126-58fe-4fab-ba50-106efade108c" name="Changes" comment="2.Actions">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1ae53126-58fe-4fab-ba50-106efade108c" name="Changes" comment="checkbox and radiobutton">
       <change beforePath="$PROJECT_DIR$/src/test/java/BasicActionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasicActionsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720787973920</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="checkbox and radiobutton">
+      <option name="closed" value="true" />
+      <created>1720883377332</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720883377332</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,7 +198,8 @@
     <MESSAGE value="1.Selektory" />
     <MESSAGE value="2.Action" />
     <MESSAGE value="2.Actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.Actions" />
+    <MESSAGE value="checkbox and radiobutton" />
+    <option name="LAST_COMMIT_MESSAGE" value="checkbox and radiobutton" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

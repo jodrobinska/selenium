@@ -47,7 +47,5 @@ public class BasicActionsTest {
 
         driver.findElement(By.cssSelector("[value='female']")).click(); // radiobutton
 
-
-
     }
 }

@@ -42,9 +42,16 @@ public class BasicActionsTest {
         usernameInput.sendKeys("Judyta29");
         usernameInput.sendKeys(Keys.TAB);
 
+        // pobieranie wpisanej wpisanej przez użytkownika wartości z pola tekstowego
+        System.out.println(usernameInput.getAttribute("value"));
+
         WebElement passInput = driver.findElement(By.name("password"));
         passInput.sendKeys(Keys.TAB);
-        //passInput.sendKeys(Keys.ENTER);
+        passInput.sendKeys(Keys.ENTER); //pokazuje się alert
+        Alert firstAlert = driver.switchTo().alert(); // przepinamy się do alertu
+        firstAlert.accept();
+        driver.switchTo().alert().accept(); // przepinamy się do drugiego alertu
+
 
         driver.findElement(By.cssSelector("[type='checkbox']")).click(); // checkbox
 
@@ -62,6 +69,15 @@ public class BasicActionsTest {
         for (WebElement option : options4) {
             System.out.println(option.getText()); // metoda getText działa dla kazdego WebElementu
         }
+
+        SelectCheck selectCheck = new SelectCheck();
+        System.out.println(selectCheck.checkOption("Saab",selectCar));
+        System.out.println(selectCheck.checkOption("VW",selectCar));
+
+
+        // pobieranie wartości ukrytej na stronie
+        WebElement paraHidden = driver.findElement(By.className("topSecret"));
+        System.out.println("By attr text content: " + paraHidden.getAttribute("textContent"));
 
     }
 }

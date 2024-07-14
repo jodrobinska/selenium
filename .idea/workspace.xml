@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ae53126-58fe-4fab-ba50-106efade108c" name="Changes" comment="new window">
-      <change afterPath="$PROJECT_DIR$/src/test/java/iframeTest.java" afterDir="false" />
+    <list default="true" id="1ae53126-58fe-4fab-ba50-106efade108c" name="Changes" comment="iframe">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ExecutorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +37,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.<default>.executor": "Run",
     "TestNG.BasicActionsTest.performAction.executor": "Run",
+    "TestNG.ExecutorTest.executeJavaScript.executor": "Run",
     "TestNG.NewWindowTest.testNewWindow.executor": "Debug",
     "TestNG.Selektory.findElements.executor": "Run",
     "TestNG.Selektory.testingOmayo.executor": "Run",
@@ -67,12 +68,24 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.iframeTest.testiframe">
+  <component name="RunManager" selected="TestNG.ExecutorTest.executeJavaScript">
     <configuration name="BasicActionsTest.performAction" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTests" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BasicActionsTest" />
       <option name="METHOD_NAME" value="performAction" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExecutorTest.executeJavaScript" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExecutorTest" />
+      <option name="METHOD_NAME" value="executeJavaScript" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -104,18 +117,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumTest2.findTutorialSelenium" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumTests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTest2" />
-      <option name="METHOD_NAME" value="findTutorialSelenium" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="iframeTest.testiframe" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTests" />
       <option name="PACKAGE_NAME" value="" />
@@ -130,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ExecutorTest.executeJavaScript" />
         <item itemvalue="TestNG.iframeTest.testiframe" />
         <item itemvalue="TestNG.NewWindowTest.testNewWindow" />
         <item itemvalue="TestNG.BasicActionsTest.performAction" />
         <item itemvalue="TestNG.Selektory.findElements" />
-        <item itemvalue="TestNG.SeleniumTest2.findTutorialSelenium" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720948815436</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="iframe">
+      <option name="closed" value="true" />
+      <created>1720958151788</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720958151788</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,7 +248,8 @@
     <MESSAGE value="select" />
     <MESSAGE value="alert" />
     <MESSAGE value="new window" />
-    <option name="LAST_COMMIT_MESSAGE" value="new window" />
+    <MESSAGE value="iframe" />
+    <option name="LAST_COMMIT_MESSAGE" value="iframe" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

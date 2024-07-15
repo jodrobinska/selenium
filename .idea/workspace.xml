@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ae53126-58fe-4fab-ba50-106efade108c" name="Changes" comment="iframe">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ExecutorTest.java" afterDir="false" />
+    <list default="true" id="1ae53126-58fe-4fab-ba50-106efade108c" name="Changes" comment="JavaScript Executor">
+      <change afterPath="$PROJECT_DIR$/src/test/java/UploadTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +51,7 @@
     "TestNG.SeleniumTest.openPageGoogle.executor": "Run",
     "TestNG.SeleniumTest.sampleTest.executor": "Run",
     "TestNG.SeleniumTest2.findTutorialSelenium.executor": "Debug",
+    "TestNG.UploadTest.uploadFileTest.executor": "Run",
     "TestNG.WebDriverManagerTest.openBrowser.executor": "Run",
     "TestNG.iframeTest.testiframe.executor": "Run",
     "git-widget-placeholder": "master",
@@ -68,7 +69,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ExecutorTest.executeJavaScript">
+  <component name="RunManager" selected="TestNG.UploadTest.uploadFileTest">
     <configuration name="BasicActionsTest.performAction" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTests" />
       <option name="PACKAGE_NAME" value="" />
@@ -105,11 +106,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selektory.findElements" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UploadTest.uploadFileTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTests" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Selektory" />
-      <option name="METHOD_NAME" value="findElements" />
+      <option name="MAIN_CLASS_NAME" value="UploadTest" />
+      <option name="METHOD_NAME" value="uploadFileTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -131,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.UploadTest.uploadFileTest" />
         <item itemvalue="TestNG.ExecutorTest.executeJavaScript" />
         <item itemvalue="TestNG.iframeTest.testiframe" />
         <item itemvalue="TestNG.NewWindowTest.testNewWindow" />
         <item itemvalue="TestNG.BasicActionsTest.performAction" />
-        <item itemvalue="TestNG.Selektory.findElements" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720958151788</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="JavaScript Executor">
+      <option name="closed" value="true" />
+      <created>1720959933824</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720959933824</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,7 +258,8 @@
     <MESSAGE value="alert" />
     <MESSAGE value="new window" />
     <MESSAGE value="iframe" />
-    <option name="LAST_COMMIT_MESSAGE" value="iframe" />
+    <MESSAGE value="JavaScript Executor" />
+    <option name="LAST_COMMIT_MESSAGE" value="JavaScript Executor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

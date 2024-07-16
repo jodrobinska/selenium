@@ -3,6 +3,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 import java.io.File;
@@ -45,6 +46,13 @@ public class UploadTest {
         File after = screenshot.getScreenshotAs(OutputType.FILE);
         String afterScreenshotName = "afterUpload" + randomNumber + ".png"; // unikalna nazwa screenshota after
         FileUtils.copyFile(after,new File("src/test/resources/" + afterScreenshotName));
+
+        // klikanie prawym przyciskiem w przypadkowe miejsce
+        Actions actions = new Actions(driver);
+        //actions.contextClick().perform();
+
+        // kilknięcie prawym w input, id = 'myFile'
+        actions.contextClick(driver.findElement(By.id("myFile"))).perform();
 
     }
 }

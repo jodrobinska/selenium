@@ -30,13 +30,19 @@ public class UploadTest {
         driver.manage().window().maximize();
         driver.get("https://testeroprogramowania.github.io/selenium/fileupload.html");
 
+        //int randomNumber = (int) (Math.random()*1000); // unikalna nazwa screenshota
+
+        //screenshot before
+        TakesScreenshot screenshot = (TakesScreenshot) driver;
+        File before = screenshot.getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(before,new File("src/test/resources/beforeUploada.png")); // Make directory as Test Resources Root !!!
+
         // lokalizowanie i ścieżka
         driver.findElement(By.id("myFile")).sendKeys("C:\\Users\\Judyta\\Downloads\\Judyta-Odrobinska-CV.pdf");
 
-        //screenshot
-        TakesScreenshot screenshot = (TakesScreenshot) driver;
-        File srcFile = screenshot.getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(srcFile,new File("src/test/resources/screenshot.png")); // Make directory as Test Resources Root !!!
+        //screenshot after
+        File after = screenshot.getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(after,new File("src/test/resources/afterUploada.png"));
 
     }
 }

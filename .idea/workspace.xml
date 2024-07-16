@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ae53126-58fe-4fab-ba50-106efade108c" name="Changes" comment="Screenshot before and after with number">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ActionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HoverTest.java" afterDir="false" />
+    <list default="true" id="1ae53126-58fe-4fab-ba50-106efade108c" name="Changes" comment="hover">
+      <change afterPath="$PROJECT_DIR$/src/test/java/GetPageInfoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UploadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UploadTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +39,7 @@
     "TestNG.ActionsTest.actionsTesting.executor": "Run",
     "TestNG.BasicActionsTest.performAction.executor": "Run",
     "TestNG.ExecutorTest.executeJavaScript.executor": "Run",
+    "TestNG.GetPageInfoTest.getInfo.executor": "Run",
     "TestNG.HoverTest.HoverTesting.executor": "Run",
     "TestNG.NewWindowTest.testNewWindow.executor": "Debug",
     "TestNG.Selektory.findElements.executor": "Run",
@@ -73,7 +72,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HoverTest.HoverTesting">
+  <component name="RunManager" selected="TestNG.GetPageInfoTest.getInfo">
     <configuration name="ActionsTest.actionsTesting" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTests" />
       <option name="PACKAGE_NAME" value="" />
@@ -91,6 +90,18 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ExecutorTest" />
       <option name="METHOD_NAME" value="executeJavaScript" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetPageInfoTest.getInfo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GetPageInfoTest" />
+      <option name="METHOD_NAME" value="getInfo" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -122,25 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="iframeTest.testiframe" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumTests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="iframeTest" />
-      <option name="METHOD_NAME" value="testiframe" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GetPageInfoTest.getInfo" />
         <item itemvalue="TestNG.HoverTest.HoverTesting" />
         <item itemvalue="TestNG.ActionsTest.actionsTesting" />
         <item itemvalue="TestNG.UploadTest.uploadFileTest" />
         <item itemvalue="TestNG.ExecutorTest.executeJavaScript" />
-        <item itemvalue="TestNG.iframeTest.testiframe" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721147005012</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="hover">
+      <option name="closed" value="true" />
+      <created>1721153059144</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1721153059144</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,7 +306,8 @@
     <MESSAGE value="Screenshot" />
     <MESSAGE value="Screenshot before and after" />
     <MESSAGE value="Screenshot before and after with number" />
-    <option name="LAST_COMMIT_MESSAGE" value="Screenshot before and after with number" />
+    <MESSAGE value="hover" />
+    <option name="LAST_COMMIT_MESSAGE" value="hover" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

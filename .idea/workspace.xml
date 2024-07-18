@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ae53126-58fe-4fab-ba50-106efade108c" name="Changes" comment="czy element jest widoczny / czy element jest aktywny / czy element jest zaznaczony">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ImageTest.java" afterDir="false" />
+    <list default="true" id="1ae53126-58fe-4fab-ba50-106efade108c" name="Changes" comment="image test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/WaitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +58,7 @@
     "TestNG.SeleniumTest.sampleTest.executor": "Run",
     "TestNG.SeleniumTest2.findTutorialSelenium.executor": "Debug",
     "TestNG.UploadTest.uploadFileTest.executor": "Run",
+    "TestNG.WaitTest.waitTest.executor": "Run",
     "TestNG.WebDriverManagerTest.openBrowser.executor": "Run",
     "TestNG.iframeTest.testiframe.executor": "Run",
     "git-widget-placeholder": "master",
@@ -75,7 +76,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ImageTest.imageTest">
+  <component name="RunManager" selected="TestNG.WaitTest.waitTest">
     <configuration name="ElementExistTest.elementExistTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTests" />
       <option name="PACKAGE_NAME" value="" />
@@ -93,18 +94,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GetPageInfoTest" />
       <option name="METHOD_NAME" value="getInfo" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HoverTest.HoverTesting" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumTests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HoverTest" />
-      <option name="METHOD_NAME" value="HoverTesting" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -136,13 +125,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WaitTest.waitTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WaitTest" />
+      <option name="METHOD_NAME" value="waitTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.WaitTest.waitTest" />
         <item itemvalue="TestNG.ImageTest.imageTest" />
         <item itemvalue="TestNG.ImageTest.ImageTest" />
         <item itemvalue="TestNG.ElementExistTest.elementExistTest" />
         <item itemvalue="TestNG.GetPageInfoTest.getInfo" />
-        <item itemvalue="TestNG.HoverTest.HoverTesting" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +300,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721310870133</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="image test">
+      <option name="closed" value="true" />
+      <created>1721316440650</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1721316440650</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -337,7 +346,8 @@
     <MESSAGE value="get info about web page" />
     <MESSAGE value="check if element exist on webpage" />
     <MESSAGE value="czy element jest widoczny / czy element jest aktywny / czy element jest zaznaczony" />
-    <option name="LAST_COMMIT_MESSAGE" value="czy element jest widoczny / czy element jest aktywny / czy element jest zaznaczony" />
+    <MESSAGE value="image test" />
+    <option name="LAST_COMMIT_MESSAGE" value="image test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

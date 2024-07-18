@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ae53126-58fe-4fab-ba50-106efade108c" name="Changes" comment="hover">
-      <change afterPath="$PROJECT_DIR$/src/test/java/GetPageInfoTest.java" afterDir="false" />
+    <list default="true" id="1ae53126-58fe-4fab-ba50-106efade108c" name="Changes" comment="get info about web page">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ElementExistTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +38,7 @@
     "TestNG.<default>.executor": "Run",
     "TestNG.ActionsTest.actionsTesting.executor": "Run",
     "TestNG.BasicActionsTest.performAction.executor": "Run",
+    "TestNG.ElementExistTest.elementExistTest.executor": "Run",
     "TestNG.ExecutorTest.executeJavaScript.executor": "Run",
     "TestNG.GetPageInfoTest.getInfo.executor": "Run",
     "TestNG.HoverTest.HoverTesting.executor": "Run",
@@ -72,7 +73,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GetPageInfoTest.getInfo">
+  <component name="RunManager" selected="TestNG.ElementExistTest.elementExistTest">
     <configuration name="ActionsTest.actionsTesting" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTests" />
       <option name="PACKAGE_NAME" value="" />
@@ -85,11 +86,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExecutorTest.executeJavaScript" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ElementExistTest.elementExistTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTests" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExecutorTest" />
-      <option name="METHOD_NAME" value="executeJavaScript" />
+      <option name="MAIN_CLASS_NAME" value="ElementExistTest" />
+      <option name="METHOD_NAME" value="elementExistTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -135,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ElementExistTest.elementExistTest" />
         <item itemvalue="TestNG.GetPageInfoTest.getInfo" />
         <item itemvalue="TestNG.HoverTest.HoverTesting" />
         <item itemvalue="TestNG.ActionsTest.actionsTesting" />
         <item itemvalue="TestNG.UploadTest.uploadFileTest" />
-        <item itemvalue="TestNG.ExecutorTest.executeJavaScript" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721153059144</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="get info about web page">
+      <option name="closed" value="true" />
+      <created>1721154147309</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1721154147309</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -307,7 +316,8 @@
     <MESSAGE value="Screenshot before and after" />
     <MESSAGE value="Screenshot before and after with number" />
     <MESSAGE value="hover" />
-    <option name="LAST_COMMIT_MESSAGE" value="hover" />
+    <MESSAGE value="get info about web page" />
+    <option name="LAST_COMMIT_MESSAGE" value="get info about web page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -7,11 +7,12 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import java.time.Duration;
 import java.util.List;
 
-public class FirstTest extends BaseTest {
+public class FirstTest {
 
     WebDriver driver;
 
@@ -38,7 +39,15 @@ public class FirstTest extends BaseTest {
         driver.findElement(By.id("clickOnMe")).click();
         waitForElementToExist(By.cssSelector("p"));
 
-        String paraText = driver.findElement(By.cssSelector("p")).getText();
+        // ASERCJE TWARDE - spr i przerwanie testu jesli fail
+        WebElement para = driver.findElement(By.cssSelector("p")); // Asercje II sposób
+        Assert.assertEquals(para.isDisplayed(),true); //dziwny zapis
+        Assert.assertTrue(para.isDisplayed());
+        Assert.assertTrue(para.getText().startsWith("Dopiero"));
+        Assert.assertFalse(para.getText().startsWith("Pojawiłem"));
+
+        String paraText = driver.findElement(By.cssSelector("p")).getText(); // Asercje I sposób
+        Assert.assertEquals(paraText,"Dopiero","Teksty są różne"); // fail z informacją 'Teksty są różne'
         Assert.assertEquals(paraText,"Dopiero się pojawiłem!");
         driver.quit();
     }
@@ -53,9 +62,20 @@ public class FirstTest extends BaseTest {
         driver.findElement(By.id("clickOnMe")).click();
         waitForElementToExist(By.cssSelector("p"));
 
-        String paraText = driver.findElement(By.cssSelector("p")).getText();
-        Assert.assertEquals(paraText,"Dopiero się pojawiłem!");
+        // ASERCJE MIEKKIE - spr wszystko
+        WebElement para = driver.findElement(By.cssSelector("p")); // Asercje II sposób
+
+        SoftAssert softAssert = new SoftAssert();
+
+        softAssert.assertEquals(para.isDisplayed(),true); //dziwny zapis
+        softAssert.assertTrue(para.isDisplayed(),"Element is not dosplayed");
+        //softAssert.assertEquals(para.getText(),"Dopiero","Teksty są różne - fail"); //fail
+        softAssert.assertTrue(para.getText().startsWith("Dopiero"));
+        softAssert.assertFalse(para.getText().startsWith("Pojawiłem"));
+        //softAssert.assertEquals(para.getText(),"Dopiero się","Drugi fail"); //fail
+
         driver.quit();
+        softAssert.assertAll();
     }
 
 

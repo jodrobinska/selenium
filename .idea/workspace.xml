@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ae53126-58fe-4fab-ba50-106efade108c" name="Changes" comment="fluent wait">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/testowanie/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/testowanie/FirstTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/testowanie/SecondTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/testowanie/ThirdTest.java" afterDir="false" />
+    <list default="true" id="1ae53126-58fe-4fab-ba50-106efade108c" name="Changes" comment="testNG">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/testowanie/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/testowanie/FirstTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +41,8 @@
     "TestNG.ElementExistTest.elementExistTest.executor": "Run",
     "TestNG.ExecutorTest.executeJavaScript.executor": "Run",
     "TestNG.FirstTest.executor": "Run",
+    "TestNG.FirstTest.firstTest.executor": "Run",
+    "TestNG.FirstTest.secondTest.executor": "Run",
     "TestNG.GetPageInfoTest.getInfo.executor": "Run",
     "TestNG.HoverTest.HoverTesting.executor": "Run",
     "TestNG.ImageTest.ImageTest.executor": "Run",
@@ -86,12 +85,37 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ThirdTest">
-    <configuration name="FirstTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.FirstTest.secondTest">
+    <configuration name="FirstTest.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTests" />
-      <option name="PACKAGE_NAME" value="" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.testowanie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.testowanie" />
       <option name="MAIN_CLASS_NAME" value="pl.testowanie.FirstTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="firstTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest.secondTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.testowanie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.testowanie" />
+      <option name="MAIN_CLASS_NAME" value="pl.testowanie.FirstTest" />
+      <option name="METHOD_NAME" value="secondTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -126,18 +150,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitExplicitTest.waitExplicitTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumTests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WaitExplicitTest" />
-      <option name="METHOD_NAME" value="waitExplicitTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="pl.testowanie" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTests" />
       <extension name="coverage">
@@ -156,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FirstTest.secondTest" />
+        <item itemvalue="TestNG.FirstTest.firstTest" />
         <item itemvalue="TestNG.ThirdTest" />
         <item itemvalue="TestNG.pl.testowanie" />
         <item itemvalue="TestNG.SecondTest" />
-        <item itemvalue="TestNG.FirstTest" />
-        <item itemvalue="TestNG.WaitExplicitTest.waitExplicitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -349,7 +361,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721325372957</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="testNG">
+      <option name="closed" value="true" />
+      <created>1721394309165</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1721394309165</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -391,7 +411,8 @@
     <MESSAGE value="Metoda sleep" />
     <MESSAGE value="implicitly wait" />
     <MESSAGE value="fluent wait" />
-    <option name="LAST_COMMIT_MESSAGE" value="fluent wait" />
+    <MESSAGE value="testNG" />
+    <option name="LAST_COMMIT_MESSAGE" value="testNG" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

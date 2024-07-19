@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ae53126-58fe-4fab-ba50-106efade108c" name="Changes" comment="implicitly wait">
-      <change afterPath="$PROJECT_DIR$/src/test/java/WaitExplicitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WaitFluentTest.java" afterDir="false" />
+    <list default="true" id="1ae53126-58fe-4fab-ba50-106efade108c" name="Changes" comment="fluent wait">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/testowanie/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/testowanie/FirstTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/testowanie/SecondTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/testowanie/ThirdTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,11 +43,13 @@
     "TestNG.BasicActionsTest.performAction.executor": "Run",
     "TestNG.ElementExistTest.elementExistTest.executor": "Run",
     "TestNG.ExecutorTest.executeJavaScript.executor": "Run",
+    "TestNG.FirstTest.executor": "Run",
     "TestNG.GetPageInfoTest.getInfo.executor": "Run",
     "TestNG.HoverTest.HoverTesting.executor": "Run",
     "TestNG.ImageTest.ImageTest.executor": "Run",
     "TestNG.ImageTest.imageTest.executor": "Run",
     "TestNG.NewWindowTest.testNewWindow.executor": "Debug",
+    "TestNG.SecondTest.executor": "Run",
     "TestNG.Selektory.findElements.executor": "Run",
     "TestNG.Selektory.testingOmayo.executor": "Run",
     "TestNG.SelektoryCSS.executor": "Run",
@@ -58,6 +62,7 @@
     "TestNG.SeleniumTest.openPageGoogle.executor": "Run",
     "TestNG.SeleniumTest.sampleTest.executor": "Run",
     "TestNG.SeleniumTest2.findTutorialSelenium.executor": "Debug",
+    "TestNG.ThirdTest.executor": "Run",
     "TestNG.UploadTest.uploadFileTest.executor": "Run",
     "TestNG.WaitExplicitTest.waitExplicitTest.executor": "Run",
     "TestNG.WaitFluentTest.waitFluentTest.executor": "Run",
@@ -65,11 +70,12 @@
     "TestNG.WaitTest.waitTest.executor": "Run",
     "TestNG.WebDriverManagerTest.openBrowser.executor": "Run",
     "TestNG.iframeTest.testiframe.executor": "Run",
+    "TestNG.pl.testowanie.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Judyta/IdeaProjects/SeleniumTests",
     "onboarding.tips.debug.path": "C:/Users/Judyta/IdeaProjects/SeleniumTests/src/main/java/pl/edu/agh/qa/Main.java",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "inlay.hints"
@@ -80,13 +86,40 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.WaitExplicitTest.waitExplicitTest">
-    <configuration name="ImageTest.imageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ThirdTest">
+    <configuration name="FirstTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTests" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ImageTest" />
-      <option name="METHOD_NAME" value="imageTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="pl.testowanie.FirstTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="pl.testowanie.SecondTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThirdTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.testowanie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.testowanie" />
+      <option name="MAIN_CLASS_NAME" value="pl.testowanie.ThirdTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -105,36 +138,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitFluentTest.waitFluentTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="pl.testowanie" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WaitFluentTest" />
-      <option name="METHOD_NAME" value="waitFluentTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WaitImplicitlyTest.waitTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumTests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WaitImplicitlyTest" />
-      <option name="METHOD_NAME" value="waitTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WaitTest.waitTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumTests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WaitTest" />
-      <option name="METHOD_NAME" value="waitTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.testowanie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.testowanie" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
@@ -143,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ThirdTest" />
+        <item itemvalue="TestNG.pl.testowanie" />
+        <item itemvalue="TestNG.SecondTest" />
+        <item itemvalue="TestNG.FirstTest" />
         <item itemvalue="TestNG.WaitExplicitTest.waitExplicitTest" />
-        <item itemvalue="TestNG.WaitFluentTest.waitFluentTest" />
-        <item itemvalue="TestNG.WaitImplicitlyTest.waitTest" />
-        <item itemvalue="TestNG.WaitTest.waitTest" />
-        <item itemvalue="TestNG.ImageTest.imageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -328,7 +341,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721320605219</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="fluent wait">
+      <option name="closed" value="true" />
+      <created>1721325372957</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1721325372957</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -369,7 +390,8 @@
     <MESSAGE value="image test" />
     <MESSAGE value="Metoda sleep" />
     <MESSAGE value="implicitly wait" />
-    <option name="LAST_COMMIT_MESSAGE" value="implicitly wait" />
+    <MESSAGE value="fluent wait" />
+    <option name="LAST_COMMIT_MESSAGE" value="fluent wait" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

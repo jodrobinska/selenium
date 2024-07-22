@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ae53126-58fe-4fab-ba50-106efade108c" name="Changes" comment="asercja twarda i asercja miękka">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/testowanie/SampleTestListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1ae53126-58fe-4fab-ba50-106efade108c" name="Changes" comment="test listener">
       <change beforePath="$PROJECT_DIR$/src/test/java/pl/testowanie/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/testowanie/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/testowanie/SampleTestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/testowanie/TestListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -384,7 +383,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721410023065</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="test listener">
+      <option name="closed" value="true" />
+      <created>1721661460456</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1721661460456</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -428,7 +435,8 @@
     <MESSAGE value="fluent wait" />
     <MESSAGE value="testNG" />
     <MESSAGE value="asercja twarda i asercja miękka" />
-    <option name="LAST_COMMIT_MESSAGE" value="asercja twarda i asercja miękka" />
+    <MESSAGE value="test listener" />
+    <option name="LAST_COMMIT_MESSAGE" value="test listener" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

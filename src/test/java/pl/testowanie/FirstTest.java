@@ -14,7 +14,7 @@ import org.testng.asserts.SoftAssert;
 import java.time.Duration;
 import java.util.List;
 
-@Listeners(value = {SampleTestListener.class})
+@Listeners(value = {TestListener.class})
 public class FirstTest {
 
     WebDriver driver;

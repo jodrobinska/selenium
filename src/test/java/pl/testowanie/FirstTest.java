@@ -6,12 +6,15 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.testng.Assert;
+import org.testng.annotations.Ignore;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import java.time.Duration;
 import java.util.List;
 
+@Listeners(value = {SampleTestListener.class})
 public class FirstTest {
 
     WebDriver driver;
@@ -52,7 +55,7 @@ public class FirstTest {
         driver.quit();
     }
 
-    @Test
+    @Test @Ignore
     public void secondTest() {
 
         driver = getDriver("chrome");

@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ae53126-58fe-4fab-ba50-106efade108c" name="Changes" comment="test listener">
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/testowanie/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/testowanie/FirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/testowanie/SampleTestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/testowanie/TestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/testowanie/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/testowanie/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/testowanie/TestListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +86,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FirstTest">
+  <component name="RunManager" selected="TestNG.FirstTest.firstTest">
     <configuration name="FirstTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTests" />
       <extension name="coverage">
@@ -174,9 +175,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FirstTest.firstTest" />
         <item itemvalue="TestNG.FirstTest" />
         <item itemvalue="TestNG.FirstTest.secondTest" />
-        <item itemvalue="TestNG.FirstTest.firstTest" />
         <item itemvalue="TestNG.ThirdTest" />
         <item itemvalue="TestNG.pl.testowanie" />
       </list>
@@ -391,7 +392,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721661460456</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="test listener">
+      <option name="closed" value="true" />
+      <created>1721662003275</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1721662003275</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

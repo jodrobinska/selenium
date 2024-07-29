@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ae53126-58fe-4fab-ba50-106efade108c" name="Changes" comment="test listener">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/testowanie/DriverFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/testowanie/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/testowanie/FirstTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pl/testowanie/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/testowanie/TestListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +73,7 @@
     &quot;TestNG.pl.testowanie.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Judyta/IdeaProjects/SeleniumTests&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Judyta/selenium-test-lab&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Judyta/IdeaProjects/SeleniumTests/src/main/java/pl/edu/agh/qa/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -86,7 +86,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FirstTest.firstTest">
+  <component name="RunManager" selected="TestNG.FirstTest">
     <configuration name="FirstTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTests" />
       <extension name="coverage">
@@ -175,8 +175,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FirstTest.firstTest" />
         <item itemvalue="TestNG.FirstTest" />
+        <item itemvalue="TestNG.FirstTest.firstTest" />
         <item itemvalue="TestNG.FirstTest.secondTest" />
         <item itemvalue="TestNG.ThirdTest" />
         <item itemvalue="TestNG.pl.testowanie" />
@@ -400,7 +400,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721662003275</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="test listener">
+      <option name="closed" value="true" />
+      <created>1721664599779</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1721664599779</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -35,11 +35,11 @@ public class TestListener implements ITestListener {
 
         TakesScreenshot screenshot = (TakesScreenshot) driver;
         File before = screenshot.getScreenshotAs(OutputType.FILE);
-        String fileName = "failedTest" + randomNumber + ".png"; // unikalna nazwa screenshota before
+        String fileName = "aFailedTest" + randomNumber + ".png"; // unikalna nazwa screenshota before
         try {
             FileUtils.copyFile(before,new File("src/test/resources/" + fileName)); // Make directory as Test Resources Root !!!
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
     }
 

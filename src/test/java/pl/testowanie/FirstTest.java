@@ -98,6 +98,7 @@ public class FirstTest {
                 System.out.println("Elementu nie ma na stronie");
                 return false;
             }
-        });
+        }
+        );
     }
 }
